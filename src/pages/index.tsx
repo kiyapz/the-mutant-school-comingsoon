@@ -26,7 +26,7 @@ export default function Index() {
         <meta property="og:url" content="https://themutantschool.com/" />
         <meta property="og:title" content="The Mutant School | Revolutionary Story-Driven Learning Platform" />
         <meta property="og:description" content="Join the creative rebellion against boring online classes. Story-driven, mission-based learning platform built for the next generation of learners." />
-        <meta property="og:image" content="https://themutantschool.com/og-image.jpg" />
+        <meta property="og:image" content="https://themutantschool.com/The%20Mutant%20School.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:site_name" content="The Mutant School" />
@@ -35,11 +35,14 @@ export default function Index() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="The Mutant School | Revolutionary Story-Driven Learning Platform" />
         <meta name="twitter:description" content="Join the creative rebellion against boring online classes. Story-driven, mission-based learning platform built for the next generation of learners." />
-        <meta name="twitter:image" content="https://themutantschool.com/og-image.jpg" />
+        <meta name="twitter:image" content="https://themutantschool.com/The%20Mutant%20School.png" />
         
-        {/* Favicon */}
-        <link rel="icon" href="/favicon.ico" />
+        {/* Favicon & App Icons - Based on your public folder files */}
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png" />
+        <link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png" />
         
         {/* Performance */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -72,11 +75,12 @@ export default function Index() {
             "name": "The Mutant School",
             "description": "A revolutionary story-driven, mission-based learning platform built for the next generation of learners.",
             "url": "https://themutantschool.com",
-            "logo": "https://themutantschool.com/logo.png",
-            "image": "https://themutantschool.com/og-image.jpg",
+            "logo": "https://themutantschool.com/The%20Mutant%20School.png",
+            "image": "https://themutantschool.com/The%20Mutant%20School.png",
             "sameAs": [
-              "https://twitter.com/themutantschool",
-              "https://linkedin.com/company/themutantschool"
+              "https://www.instagram.com/themutantschool/",
+              "https://www.youtube.com/@TheMutantSchool",
+              "https://www.linkedin.com/company/themutantschool/"
             ],
             "foundingDate": "2025",
             "slogan": "Something different is coming to education"
