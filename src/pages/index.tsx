@@ -39,7 +39,7 @@ export default function Index() {
         
         {/* Favicon */}
         <link rel="icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/The Mutant School.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         
         {/* Performance */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
